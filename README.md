@@ -1,6 +1,7 @@
 # Mesugaki Sensei（メスガキ先生）
 
 コード書いてる横で煽ってくるVSCode拡張。
+(ファイル数制限に達したためZipで入れてありますので解凍が必要です）
 
 ## 何ができるの
 
@@ -53,3 +54,5 @@ vsce package
 - `src/taunts.ts` に台詞を足せば量が増える
 - `src/styleChecker.ts` にルール足せば指摘項目が増える。ちゃんとやるならASTパース（`typescript` パッケージのCompiler API）を使うと精度上がる
 - 対象言語は今JS/TSだけ。`TARGET_LANGS` を編集すれば増やせる
+
+(ファイル数制限に達したためZipで入れてありますので解凍が必要です）
